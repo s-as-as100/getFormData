@@ -4,10 +4,20 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+import {createStore} from 'redux'
+import {Provider} from 'react-redux'
+
+// import RootReducer from './redux/RootReducer';
+
+// const store = createStore(RootReducer)
+// console.log("heelo",store)
+
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+ <React.Fragment>
+  <App/>
+ </React.Fragment>,
+   
+   
   document.getElementById('root')
 );
 
